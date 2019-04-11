@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>group6</groupId>
+  <artifactId>semester-project</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <name>group6.semester-project (OSGi project)</name>
+
+  <description>Generated using Pax-Construct</description>
+
+  <properties>	  
+		<maven.compiler.target>1.8</maven.compiler.target>
+	    <maven.compiler.source>1.8</maven.compiler.source>
+  
+    <!--
+     | some example OSGi runtime properties
+    -->
+    <org.osgi.service.http.port>8080</org.osgi.service.http.port>
+    <org.osgi.service.http.port.secure>8443</org.osgi.service.http.port.secure>
+  </properties>
+
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>poms</module>
+    <module>provision</module>
+    <module>Core</module>
+    <module>Common</module>
+    <module>CommonMap</module>
+    <module>LibGDX</module>
+  </modules>
+
+  <build>
+    <plugins>	
+      <plugin>
+	  
+        <groupId>org.ops4j</groupId>
+        <artifactId>maven-pax-plugin</artifactId>
+        <version>1.6.0</version>
+        <configuration>
+		
+          <provision>
+            <param>--platform=felix</param>
+          </provision>
+        </configuration>
+        <executions>
+
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

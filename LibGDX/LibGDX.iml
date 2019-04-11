@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="Manually" manifestLocation="-osgi.bnd" jarfileLocation="LibGDX-1.0-SNAPSHOTpax-wrap-jar.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="LibGDX" bundleVersion="1.0-SNAPSHOTpax-wrap-jar" ignoreFilePattern="" useProjectDefaultManifestFileLocation="false" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties>
+          <property key="Bundle-Description" value="Generated using Pax-Construct" />
+          <property key="Export-Package" value="!LibGDX.internal.*,LibGDX.*;version=&quot;1.0-SNAPSHOTpax-wrap-jar&quot;" />
+          <property key="Private-Package" value="LibGDX.internal.*" />
+          <property key="Bundle-Name" value="LibGDX" />
+          <property key="Include-Resource" value="gdx-box2d.dll=$MODULE_DIR$/src/main/resources/gdx-box2d.dll,gdx-box2d64.dll=$MODULE_DIR$/src/main/resources/gdx-box2d64.dll,gdx-freetype.dll=$MODULE_DIR$/src/main/resources/gdx-freetype.dll,gdx-freetype64.dll=$MODULE_DIR$/src/main/resources/gdx-freetype64.dll,gdx.dll=$MODULE_DIR$/src/main/resources/gdx.dll,gdx64.dll=$MODULE_DIR$/src/main/resources/gdx64.dll,libgdx-box2d.dylib=$MODULE_DIR$/src/main/resources/libgdx-box2d.dylib,libgdx-box2d.so=$MODULE_DIR$/src/main/resources/libgdx-box2d.so,libgdx-box2d64.dylib=$MODULE_DIR$/src/main/resources/libgdx-box2d64.dylib,libgdx-box2d64.so=$MODULE_DIR$/src/main/resources/libgdx-box2d64.so,libgdx-freetype.dylib=$MODULE_DIR$/src/main/resources/libgdx-freetype.dylib,libgdx-freetype.so=$MODULE_DIR$/src/main/resources/libgdx-freetype.so,libgdx-freetype64.dylib=$MODULE_DIR$/src/main/resources/libgdx-freetype64.dylib,libgdx-freetype64.so=$MODULE_DIR$/src/main/resources/libgdx-freetype64.so,libgdx.dylib=$MODULE_DIR$/src/main/resources/libgdx.dylib,libgdx.so=$MODULE_DIR$/src/main/resources/libgdx.so,libgdx64.dylib=$MODULE_DIR$/src/main/resources/libgdx64.dylib,libgdx64.so=$MODULE_DIR$/src/main/resources/libgdx64.so,liblwjgl.dylib=$MODULE_DIR$/src/main/resources/liblwjgl.dylib,liblwjgl.so=$MODULE_DIR$/src/main/resources/liblwjgl.so,liblwjgl64.so=$MODULE_DIR$/src/main/resources/liblwjgl64.so,libopenal.so=$MODULE_DIR$/src/main/resources/libopenal.so,libopenal64.so=$MODULE_DIR$/src/main/resources/libopenal64.so,lwjgl.dll=$MODULE_DIR$/src/main/resources/lwjgl.dll,lwjgl64.dll=$MODULE_DIR$/src/main/resources/lwjgl64.dll,META-INF/MANIFEST.MF=$MODULE_DIR$/src/main/resources/META-INF/MANIFEST.MF,openal.dylib=$MODULE_DIR$/src/main/resources/openal.dylib,OpenAL32.dll=$MODULE_DIR$/src/main/resources/OpenAL32.dll,OpenAL64.dll=$MODULE_DIR$/src/main/resources/OpenAL64.dll" />
+        </additionalProperties>
+        <additionalJARContents />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.osgi:osgi_R4_core:1.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.osgi:osgi_R4_compendium:1.0" level="project" />
+    <orderEntry type="library" name="Maven: com.badlogicgames.gdx:gdx:1.5.0" level="project" />
+    <orderEntry type="library" name="Maven: com.badlogicgames.gdx:gdx-platform:1.5.0" level="project" />
+    <orderEntry type="library" name="Maven: com.badlogicgames.gdx:gdx-backend-lwjgl:1.5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.lwjgl.lwjgl:lwjgl:2.9.1" level="project" />
+    <orderEntry type="library" name="Maven: org.lwjgl.lwjgl:lwjgl-platform:natives-windows:2.9.1" level="project" />
+    <orderEntry type="library" name="Maven: org.lwjgl.lwjgl:lwjgl-platform:natives-linux:2.9.1" level="project" />
+    <orderEntry type="library" name="Maven: org.lwjgl.lwjgl:lwjgl-platform:natives-osx:2.9.1" level="project" />
+    <orderEntry type="library" name="Maven: net.java.jinput:jinput:2.0.5" level="project" />
+    <orderEntry type="library" name="Maven: net.java.jutils:jutils:1.0.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: net.java.jinput:jinput-platform:natives-linux:2.0.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: net.java.jinput:jinput-platform:natives-windows:2.0.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: net.java.jinput:jinput-platform:natives-osx:2.0.5" level="project" />
+    <orderEntry type="library" name="Maven: org.lwjgl.lwjgl:lwjgl_util:2.9.1" level="project" />
+    <orderEntry type="library" name="Maven: com.badlogicgames.jlayer:jlayer:1.0.1-gdx" level="project" />
+    <orderEntry type="library" name="Maven: org.jcraft:jorbis:0.0.17" level="project" />
+    <orderEntry type="library" name="Maven: com.badlogicgames.gdx:gdx-box2d:1.5.0" level="project" />
+    <orderEntry type="library" name="Maven: com.badlogicgames.gdx:gdx-freetype:1.5.0" level="project" />
+    <orderEntry type="library" name="Maven: com.badlogicgames.gdx:gdx-platform:natives-desktop:1.5.0" level="project" />
+    <orderEntry type="library" name="Maven: com.badlogicgames.gdx:gdx-box2d-platform:natives-desktop:1.5.0" level="project" />
+    <orderEntry type="library" name="Maven: com.badlogicgames.gdx:gdx-freetype-platform:natives-desktop:1.5.0" level="project" />
+    <orderEntry type="library" name="Maven: com.badlogicgames.gdx:gdx-jnigen:1.5.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.javaparser:javaparser:1.0.8" level="project" />
+    <orderEntry type="library" name="Maven: com.diffplug.osgi:com.diffplug.osgi.extension.sun.misc:0.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.diffplug.osgi:com.diffplug.osgi.extension.sun.reflect:0.0.0" level="project" />
+  </component>
+</module>
